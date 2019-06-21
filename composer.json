@@ -1,0 +1,61 @@
+{
+    "name": "weeq/init",
+    "description": "",
+    "keywords": [
+        "weeq",
+        "init"
+    ],
+    "homepage": "https://github.com/weeq/init",
+    "license": "Apache-2.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ferdi ÜNAL",
+            "email": "ferdi@unal.pw",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*",
+        "zendframework/zend-code": "^3.3"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.6",
+        "laravel/telescope": "^2.0",
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weeq\\Init\\": "src"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Weeq\\Init\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Weeq\\Init\\InitServiceProvider"
+            ],
+            "aliases": {
+                "Init": "Weeq\\Init\\InitFacade"
+            }
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
