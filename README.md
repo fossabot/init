@@ -4,6 +4,7 @@
 [![Build Status](https://img.shields.io/travis/weeq/init/master.svg?style=flat-square)](https://travis-ci.org/weeq/init)
 [![Quality Score](https://img.shields.io/scrutinizer/g/weeq/init.svg?style=flat-square)](https://scrutinizer-ci.com/g/weeq/init)
 [![Total Downloads](https://img.shields.io/packagist/dt/weeq/init.svg?style=flat-square)](https://packagist.org/packages/weeq/init)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fweeq%2Finit.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fweeq%2Finit?ref=badge_shield)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
@@ -47,6 +48,9 @@ If you discover any security related issues, please email ferdi@unal.pw instead 
 ## License
 
 The Apache License 2. Please see [License File](LICENSE.md) for more information.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fweeq%2Finit.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fweeq%2Finit?ref=badge_large)
 
 ## Laravel Package Boilerplate
 
